@@ -7,6 +7,7 @@ html {
 body {
   width: 800px;
   margin: 0 auto;
+  font-size: 120%;
 }
 
 h1, h2 {
@@ -17,10 +18,6 @@ h1, h2 {
 h1 {
   font-size: 2rem;
   text-align: center;
-}
-
-header p {
-  font-size: 1rem;
 }
 
 /* section styles */
@@ -61,7 +58,6 @@ h2 {
 }
 
 p {
-  font-size: 1rem;
-  
+  font-size: 100%; 
   
 }
