@@ -16,7 +16,7 @@ h1, h2 {
 /* header styles */
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -50,10 +50,12 @@ section ul {
 
 h2 {
   font-size: 3rem;
-  letter-spacing: -5px;
+  letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
 p {
   font-size: 1.25em;
+  letter-spacing: 2px;
+  text-align: center;
 }
