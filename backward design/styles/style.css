@@ -45,16 +45,25 @@ section p {
 
 section ul {
   margin-top: 3;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+section ol {
+  margin-top: 3;
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-size: 2rem;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 p {
-  font-size: 1.25rem;
-  letter-spacing: 5px;
-  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  
 }
