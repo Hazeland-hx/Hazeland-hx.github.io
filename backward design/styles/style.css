@@ -10,18 +10,18 @@ body {
 }
 
 h1, h2 {
-  font-family: 'sans-serif';
+  font-family: 'helvetica';
 }
 
 /* header styles */
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 header p {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
 }
