@@ -9,6 +9,10 @@ body {
   margin: 0 auto;
 }
 
+p{
+   color red;
+}
+
 h1, h2 {
   font-family: 'Faster One', cursive;
 }
