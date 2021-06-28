@@ -1,9 +1,6 @@
-
 var body = document.querySelector("body");
-var log = document.querySelector("#log");
-
-
-class question {
+  
+  class question {
   // A constructor is a special function used to create an instance of the class
   constructor(question, answer) {
     this.question = question;
@@ -24,7 +21,7 @@ myFlashcards.push(new question('Is ice cold?', 'yes'));
 // Loop through the array printing out the question and the answer
 let i = 0;
 while (i < myFlashcards.length)  {
-    log.innerText =console.log(myFlashcards[i].question + ' ' + myFlashcards[i].answer);
+  console.log(myFlashcards[i].question + ' ' + myFlashcards[i].answer);
     i=i+1;
 }
 
