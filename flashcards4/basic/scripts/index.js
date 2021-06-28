@@ -11,10 +11,15 @@ var body = document.querySelector("body");
   }
 }
 
+var img1 = document.createElement("img");
+img1.src = "images/000.jpeg";
+var src = document.getElementById("x");
+ 
+src.appendChild(img);
 // Declare a new array
 let myFlashcards = [];
 var img1 = new Image();
-img1=document.getElementById("x1"); 
+img1.src=
 var img2 = new Image();
 img2=document.getElementById("x2");
 var img3 = new Image();
