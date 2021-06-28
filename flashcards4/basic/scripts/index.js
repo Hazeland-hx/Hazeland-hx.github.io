@@ -14,15 +14,15 @@ var body = document.querySelector("body");
 //var src = document.getElementById("x");
 
 var img1 = new Image(100, 200);
-myImage.src = 'images/000.jpeg';
+img1.src = 'images/000.jpeg';
 document.body.appendChild(img1);
 
 var img2 = new Image(100, 200);
-myImage.src = 'images/001.jpeg';
+img2.src = 'images/001.jpeg';
 document.body.appendChild(img2);
 
 var img3 = new Image(100, 200);
-myImage.src = 'images/002.jpeg';
+img3.src = 'images/002.jpeg';
 document.body.appendChild(img3);
 
  
