@@ -29,11 +29,11 @@ i=0;
 body.addEventListener("click", changeQuestion);
 
 function changeQuestion() {
+  document.getElementById("q1").innerHTML = myFlashcards[i].question;
+  document.getElementById("a1").innerHTML = myFlashcards[i].answer;
   if(i < myFlashcards.length-1){
     i=i+1;
   }else{
     i=0
   }
-  document.getElementById("q1").innerHTML = myFlashcards[i].question;
-  document.getElementById("a1").innerHTML = myFlashcards[i].answer;
 }
