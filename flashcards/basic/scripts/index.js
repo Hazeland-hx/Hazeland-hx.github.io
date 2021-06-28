@@ -1,7 +1,6 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
 
 var body = document.querySelector("body");
+
 class question {
   // A constructor is a special function used to create an instance of the class
   constructor(question, answer) {
