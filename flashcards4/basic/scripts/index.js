@@ -16,9 +16,9 @@ let myFlashcards = [];
 var img1 = new Image();
 img1.src = "images/000.jpeg"
 var img2 = new Image();
-img2.src = "images/.jpeg"
+img2.src = "images/001.jpeg"
 var img3 = new Image();
-img3.src = "images/.jpeg"
+img3.src = "images/002.jpeg"
 // Create three questions and push them onto the myFlashcards array
 myFlashcards.push(new question('What is 3+5?', img1));
 myFlashcards.push(new question('What color is the sky?', img2));
