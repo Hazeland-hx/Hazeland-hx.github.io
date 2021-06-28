@@ -1,6 +1,7 @@
+// Grab the body element from HTML
 var body = document.querySelector("body");
-  
-  class question {
+//Declaration for the class child
+class question {
   // A constructor is a special function used to create an instance of the class
   constructor(question, answer) {
     this.question = question;
@@ -25,10 +26,11 @@ while (i < myFlashcards.length)  {
     i=i+1;
 }
 
+// Wait for the user to click the question
 i=0;
 body.addEventListener("click", changeQuestion);
-
 function changeQuestion() {
+  // change the question and display the answer
   document.getElementById("q1").innerHTML = myFlashcards[i].question;
   document.getElementById("a1").innerHTML = myFlashcards[i].answer;
   if(i < myFlashcards.length-1){
