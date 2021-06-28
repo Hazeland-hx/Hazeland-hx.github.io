@@ -14,11 +14,11 @@ var body = document.querySelector("body");
 // Declare a new array
 let myFlashcards = [];
 var img1 = new Image();
-img1.src = "images/000.jpeg"
+img1=document.getElementById("x1"); 
 var img2 = new Image();
-img2.src = "images/001.jpeg"
+img2=document.getElementById("x2");
 var img3 = new Image();
-img3.src = "images/002.jpeg"
+img3=document.getElementById("x3");
 // Create three questions and push them onto the myFlashcards array
 myFlashcards.push(new question('What is 3+5?', img1));
 myFlashcards.push(new question('What color is the sky?', img2));
