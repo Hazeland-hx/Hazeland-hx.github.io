@@ -34,9 +34,9 @@ function buttonClicked(event) {
     i=0
   }
   document.getElementById("q1").innerHTML = myFlashcards[i].question;
-  
 }
 
+document.getElementById("a1").innerHTML = 'Hover on the question to see the answer';
 function buttonHovered(event){
     document.getElementById("a1").innerHTML = myFlashcards[i].answer;;
 }
