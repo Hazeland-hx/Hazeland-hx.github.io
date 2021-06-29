@@ -25,16 +25,6 @@ var img3 = new Image(100, 200);
 img3.src = 'images/002.jpeg';
 document.body.appendChild(img3);
 
- 
-src.appendChild(img);
-// Declare a new array
-let myFlashcards = [];
-var img1 = new Image();
-img1.src=
-var img2 = new Image();
-img2=document.getElementById("x2");
-var img3 = new Image();
-img3=document.getElementById("x3");
 // Create three questions and push them onto the myFlashcards array
 myFlashcards.push(new question('What is 3+5?', img1));
 myFlashcards.push(new question('What color is the sky?', img2));
