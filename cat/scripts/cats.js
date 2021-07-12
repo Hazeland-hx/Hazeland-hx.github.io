@@ -23,7 +23,7 @@ request.responseType = 'text';
 request.send();
 */
 
-fetch('https://Hazeland-hx.github.io/cats/scripts/cats.json')
+fetch('https://Hazeland-hx.github.io/cat/scripts/cats.json')
 .then(response => response.text())
 .then(text => displayCatInfo(text))
 
