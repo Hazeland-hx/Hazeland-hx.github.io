@@ -20,10 +20,10 @@ function displayCatInfo(catString) {
   const mother= jsonObj['cats'];
   for (let i=0;i<mother.length; i++){
     if (i==mother.length-1){
-        motherInfo.textContent= motherInfo.textContent + ' and '+mother[i].name+'.';
+        motherInfo= motherInfo + ' and '+mother[i].name+'.';
         console.log(1);
     }else{
-        motherInfo.textContent= motherInfo.textContent + ' '+ mother[i].name+',';
+        motherInfo= motherInfo + ' '+ mother[i].name+',';
         console.log(2);
     }
     const kittens=mother[i]['kittens'];
