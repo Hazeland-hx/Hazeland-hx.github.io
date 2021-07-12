@@ -19,7 +19,7 @@ function displayCatInfo(catString) {
   const jsonObj=JSON.parse(catString);
   const mother= jsonObj['cats'];
   for (let i=0;i<mother.length; i++){
-    if (i=mother.length-1){
+    if (i==mother.length-1){
         motherInfo.textContent= motherInfo.textContent + " and "+mother[i]+".";
     }else{
         motherInfo.textContent= motherInfo.textContent + " "+ mother[i]+",";
