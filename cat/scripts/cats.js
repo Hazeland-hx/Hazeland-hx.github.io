@@ -20,14 +20,16 @@ function displayCatInfo(catString) {
   const mother= jsonObj['cats'];
   for (let i=0;i<mother.length; i++){
     if (i==mother.length-1){
-        motherInfo.textContent= motherInfo.textContent + " and "+mother[i].name+".";
+        motherInfo.textContent= motherInfo.textContent + ' and '+mother[i].name+'.';
+        console.log(1);
     }else{
-        motherInfo.textContent= motherInfo.textContent + " "+ mother[i].name+",";
+        motherInfo.textContent= motherInfo.textContent + ' '+ mother[i].name+',';
+        console.log(2);
     }
     const kittens=mother[i]['kittens'];
     total=total+kittens.length;
     for(let j=0; j<kittens.length; j++){
-        if(kittens[j]['gender']=="m"){
+        if(kittens[j]['gender']=='m'){
             male=male+1;
         }
     }
