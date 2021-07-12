@@ -41,10 +41,10 @@ function displayCatInfo(catString) {
     }else{
         motherInfo.textContent= motherInfo.textContent + " "+ mother[i]+",";
     }
-    const kitten=mother[i]['kittens'];
+    const kittens=mother[i]['kittens'];
     total=total+kittens.length;
     for(let j=0; j<kittens.length; j++){
-        if(kitten['gender']=="m"){
+        if(kittens[j]['gender']=="m"){
             male=male+1;
         }
     }
