@@ -1,11 +1,10 @@
 const section = document.querySelector('section');
 
-let para1 = document.createElement('p');
-let para2 = document.createElement('p');
+const para1 = document.createElement('p');
+const para2 = document.createElement('p');
 
-let motherInfo = 'The mother cats are called ';
-let kittenInfo;
-
+const motherInfo = 'The mother cats are called ';
+const kittenInfo;
 /*
 // Get the URL for the JSON file
 let requestURL = 'https://Hazeland-hx.github.io/cats/scripts/cats.json';
@@ -28,6 +27,7 @@ fetch('https://Hazeland-hx.github.io/cat/scripts/cats.json')
 .then(text => displayCatInfo(text))
 
 function displayCatInfo(catString) {
+  
   let total = 0;
   let male = 0;
   let female=0;
@@ -51,8 +51,7 @@ function displayCatInfo(catString) {
   }
   female=total-male;
   kittenInfo= "There are " + total + "kittens in total, among which " + male +" are male and " + female +" are female.";
-
-
+  
 // Don't edit the code below here!
 
   para1.textContent = motherInfo;
