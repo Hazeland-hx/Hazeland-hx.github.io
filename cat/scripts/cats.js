@@ -1,26 +1,10 @@
 const section = document.querySelector('section');
 
-const para1 = document.createElement('p');
-const para2 = document.createElement('p');
+let para1 = document.createElement('p');
+let para2 = document.createElement('p');
 
-const motherInfo = 'The mother cats are called ';
-const kittenInfo;
-/*
-// Get the URL for the JSON file
-let requestURL = 'https://Hazeland-hx.github.io/cats/scripts/cats.json';
-
-// Create a request object
-let request = new XMLHttpRequest();
-
-// Set the request to GET that data from the URL
-request.open('GET', requestURL);
-
-// Tell the request that we want it back in JSON format (not a text string, but a JSON Object)
-request.responseType = 'text';
-
-// Send the request
-request.send();
-*/
+let motherInfo = 'The mother cats are called ';
+let kittenInfo;
 
 fetch('https://Hazeland-hx.github.io/cat/scripts/cats.json')
 .then(response => response.text())
@@ -31,9 +15,8 @@ function displayCatInfo(catString) {
   let total = 0;
   let male = 0;
   let female=0;
-
   // Add your code here
-  const jsonObj=JSON.parse(catsString);
+  const jsonObj=JSON.parse(catString);
   const mother= jsonObj['cats'];
   for (let i=0;i<mother.length; i++){
     if (i=mother.length-1){
