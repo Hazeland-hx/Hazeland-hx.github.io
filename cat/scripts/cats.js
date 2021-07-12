@@ -20,9 +20,9 @@ function displayCatInfo(catString) {
   const mother= jsonObj['cats'];
   for (let i=0;i<mother.length; i++){
     if (i==mother.length-1){
-        motherInfo.textContent= motherInfo.textContent + " and "+mother[i]+".";
+        motherInfo.textContent= motherInfo.textContent + " and "+mother[i].name+".";
     }else{
-        motherInfo.textContent= motherInfo.textContent + " "+ mother[i]+",";
+        motherInfo.textContent= motherInfo.textContent + " "+ mother[i].name+",";
     }
     const kittens=mother[i]['kittens'];
     total=total+kittens.length;
@@ -33,7 +33,7 @@ function displayCatInfo(catString) {
     }
   }
   female=total-male;
-  kittenInfo= "There are " + total + "kittens in total, among which " + male +" are male and " + female +" are female.";
+  kittenInfo= "There are " + total + " kittens in total, among which " + male +" are male and " + female +" are female.";
   
 // Don't edit the code below here!
 
