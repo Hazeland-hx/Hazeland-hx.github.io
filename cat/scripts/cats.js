@@ -17,7 +17,7 @@ function displayCatInfo(catString) {
   let female=0;
   // Add your code here
   const jsonObj=JSON.parse(catString);
-  const mother= jsonObj[];
+  const mother= jsonObj;
   for (let i=0;i<mother.length; i++){
     if (i==mother.length-1){
         motherInfo= motherInfo + ' and '+mother[i].name+'.';
